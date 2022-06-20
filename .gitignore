@@ -3,6 +3,12 @@ dist
 .DS_Store
 *.prettierrc
 archive.zip
+build
+
+# Firebase
+.firebase
+.firebaserc
+firebase.json
 
 # IDE - VSCode
 .vscode/*
