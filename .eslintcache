@@ -1,1 +1,449 @@
-[{"C:\\Programiranje\\Learning\\React\\React-router-practice-project\\src\\index.js":"1","C:\\Programiranje\\Learning\\React\\React-router-practice-project\\src\\App.js":"2","C:\\Programiranje\\Learning\\React\\React-router-practice-project\\src\\components\\quotes\\QuoteList.js":"3","C:\\Programiranje\\Learning\\React\\React-router-practice-project\\src\\components\\quotes\\QuoteItem.js":"4","C:\\Programiranje\\Learning\\React\\React-router-practice-project\\src\\pages\\QuoteDetail.js":"5","C:\\Programiranje\\Learning\\React\\React-router-practice-project\\src\\pages\\AllQuotes.js":"6","C:\\Programiranje\\Learning\\React\\React-router-practice-project\\src\\pages\\NewQuote.js":"7","C:\\Programiranje\\Learning\\React\\React-router-practice-project\\src\\components\\comments\\Comments.js":"8","C:\\Programiranje\\Learning\\React\\React-router-practice-project\\src\\components\\comments\\NewCommentForm.js":"9","C:\\Programiranje\\Learning\\React\\React-router-practice-project\\src\\components\\layout\\Layout.js":"10","C:\\Programiranje\\Learning\\React\\React-router-practice-project\\src\\components\\layout\\MainNavigation.js":"11","C:\\Programiranje\\Learning\\React\\React-router-practice-project\\src\\components\\quotes\\QuoteForm.js":"12","C:\\Programiranje\\Learning\\React\\React-router-practice-project\\src\\components\\UI\\Card.js":"13","C:\\Programiranje\\Learning\\React\\React-router-practice-project\\src\\components\\UI\\LoadingSpinner.js":"14","C:\\Programiranje\\Learning\\React\\React-router-practice-project\\src\\components\\quotes\\HighlightedQuote.js":"15","C:\\Programiranje\\Learning\\React\\React-router-practice-project\\src\\pages\\NotFound.js":"16","C:\\Programiranje\\Learning\\React\\React-router-practice-project\\src\\hooks\\use-http.js":"17","C:\\Programiranje\\Learning\\React\\React-router-practice-project\\src\\lib\\api.js":"18","C:\\Programiranje\\Learning\\React\\React-router-practice-project\\src\\components\\quotes\\NoQuotesFound.js":"19","C:\\Programiranje\\Learning\\React\\React-router-practice-project\\src\\components\\comments\\CommentsList.js":"20","C:\\Programiranje\\Learning\\React\\React-router-practice-project\\src\\components\\comments\\CommentItem.js":"21"},{"size":273,"mtime":1655396508189,"results":"22","hashOfConfig":"23"},{"size":933,"mtime":1655719342240,"results":"24","hashOfConfig":"23"},{"size":1518,"mtime":1655719342244,"results":"25","hashOfConfig":"23"},{"size":456,"mtime":1655457537882,"results":"26","hashOfConfig":"23"},{"size":1659,"mtime":1655719342247,"results":"27","hashOfConfig":"23"},{"size":931,"mtime":1655717675178,"results":"28","hashOfConfig":"23"},{"size":725,"mtime":1655719342245,"results":"29","hashOfConfig":"23"},{"size":1774,"mtime":1655475659647,"results":"30","hashOfConfig":"23"},{"size":1399,"mtime":1655475512181,"results":"31","hashOfConfig":"23"},{"size":323,"mtime":1655456046464,"results":"32","hashOfConfig":"23"},{"size":685,"mtime":1655719342241,"results":"33","hashOfConfig":"23"},{"size":1981,"mtime":1655719342243,"results":"34","hashOfConfig":"23"},{"size":156,"mtime":1655456464883,"results":"35","hashOfConfig":"23"},{"size":167,"mtime":1616596573000,"results":"36","hashOfConfig":"23"},{"size":270,"mtime":1616596573000,"results":"37","hashOfConfig":"23"},{"size":141,"mtime":1655461061201,"results":"38","hashOfConfig":"23"},{"size":1212,"mtime":1616590605000,"results":"39","hashOfConfig":"23"},{"size":2182,"mtime":1655465726112,"results":"40","hashOfConfig":"23"},{"size":331,"mtime":1655468044341,"results":"41","hashOfConfig":"23"},{"size":334,"mtime":1616596573000,"results":"42","hashOfConfig":"23"},{"size":200,"mtime":1616596573000,"results":"43","hashOfConfig":"23"},{"filePath":"44","messages":"45","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"usedDeprecatedRules":"46"},"1k9hi53",{"filePath":"47","messages":"48","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"49","messages":"50","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"51","messages":"52","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"usedDeprecatedRules":"46"},{"filePath":"53","messages":"54","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"55","messages":"56","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"usedDeprecatedRules":"46"},{"filePath":"57","messages":"58","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"59","messages":"60","errorCount":0,"fatalErrorCount":0,"warningCount":1,"fixableErrorCount":0,"fixableWarningCount":0,"source":"61","usedDeprecatedRules":"46"},{"filePath":"62","messages":"63","errorCount":0,"fatalErrorCount":0,"warningCount":1,"fixableErrorCount":0,"fixableWarningCount":0,"source":"64","usedDeprecatedRules":"46"},{"filePath":"65","messages":"66","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"usedDeprecatedRules":"46"},{"filePath":"67","messages":"68","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"69","messages":"70","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"71","messages":"72","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"usedDeprecatedRules":"46"},{"filePath":"73","messages":"74","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"usedDeprecatedRules":"46"},{"filePath":"75","messages":"76","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"usedDeprecatedRules":"46"},{"filePath":"77","messages":"78","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"usedDeprecatedRules":"46"},{"filePath":"79","messages":"80","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"usedDeprecatedRules":"46"},{"filePath":"81","messages":"82","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"usedDeprecatedRules":"46"},{"filePath":"83","messages":"84","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"usedDeprecatedRules":"46"},{"filePath":"85","messages":"86","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"usedDeprecatedRules":"46"},{"filePath":"87","messages":"88","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"usedDeprecatedRules":"46"},"C:\\Programiranje\\Learning\\React\\React-router-practice-project\\src\\index.js",[],["89","90"],"C:\\Programiranje\\Learning\\React\\React-router-practice-project\\src\\App.js",[],"C:\\Programiranje\\Learning\\React\\React-router-practice-project\\src\\components\\quotes\\QuoteList.js",[],"C:\\Programiranje\\Learning\\React\\React-router-practice-project\\src\\components\\quotes\\QuoteItem.js",[],"C:\\Programiranje\\Learning\\React\\React-router-practice-project\\src\\pages\\QuoteDetail.js",[],"C:\\Programiranje\\Learning\\React\\React-router-practice-project\\src\\pages\\AllQuotes.js",[],"C:\\Programiranje\\Learning\\React\\React-router-practice-project\\src\\pages\\NewQuote.js",[],"C:\\Programiranje\\Learning\\React\\React-router-practice-project\\src\\components\\comments\\Comments.js",["91"],"import { useCallback, useEffect, useState } from \"react\";\nimport { useParams } from \"react-router-dom\";\n\nimport classes from \"./Comments.module.css\";\nimport NewCommentForm from \"./NewCommentForm\";\nimport useHttp from \"../../hooks/use-http\";\nimport { getAllComments } from \"../../lib/api\";\nimport LoadingSpinner from \"../UI/LoadingSpinner\";\nimport CommentsList from \"./CommentsList\";\n\nconst Comments = () => {\n  const [isAddingComment, setIsAddingComment] = useState(false);\n\n  const params = useParams();\n\n  const { quoteId } = params;\n\n  const { sendRequest, status, data: loadedComments } = useHttp(getAllComments);\n\n  useEffect(() => {\n    sendRequest(quoteId);\n  }, [quoteId]);\n\n  const startAddCommentHandler = () => {\n    setIsAddingComment(true);\n  };\n\n  const addedCommentHandler = useCallback(() => {\n    sendRequest(quoteId);\n  }, [sendRequest, quoteId]);\n\n  let comments;\n\n  if (status === \"pending\") {\n    comments = (\n      <div className=\"centered\">\n        <LoadingSpinner />\n      </div>\n    );\n  }\n\n  if (status === \"completed\" && loadedComments && loadedComments.length > 0) {\n    comments = <CommentsList comments={loadedComments} />;\n  }\n\n  if (\n    status === \"completed\" &&\n    (!loadedComments || loadedComments.length === 0)\n  ) {\n    comments = <p className=\"centered\">No commments were added yet!</p>;\n  }\n  return (\n    <section className={classes.comments}>\n      <h2>User Comments</h2>\n      {!isAddingComment && (\n        <button className=\"btn\" onClick={startAddCommentHandler}>\n          Add a Comment\n        </button>\n      )}\n      {isAddingComment && (\n        <NewCommentForm\n          quoteId={quoteId}\n          onAddedCommnet={addedCommentHandler}\n        />\n      )}\n      {comments}\n    </section>\n  );\n};\n\nexport default Comments;\n","C:\\Programiranje\\Learning\\React\\React-router-practice-project\\src\\components\\comments\\NewCommentForm.js",["92"],"import { useEffect, useRef } from \"react\";\n\nimport classes from \"./NewCommentForm.module.css\";\n\nimport useHttp from \"../../hooks/use-http\";\nimport { addComment } from \"../../lib/api\";\nimport LoadingSpinner from \"../UI/LoadingSpinner\";\n\nconst NewCommentForm = (props) => {\n  const commentTextRef = useRef();\n\n  const { sendRequest, status, error } = useHttp(addComment);\n\n  const { onAddedCommnet } = props;\n\n  useEffect(() => {\n    if (status === \"completed\" && !error) {\n      onAddedCommnet();\n    }\n  }, [status, error]);\n\n  const submitFormHandler = (event) => {\n    event.preventDefault();\n    const enteredText = commentTextRef.current.value;\n    console.log(enteredText);\n\n    // optional: Could validate here\n\n    // send comment to server\n    sendRequest({ commentData: { text: enteredText }, quoteId: props.quoteId });\n  };\n\n  return (\n    <form className={classes.form} onSubmit={submitFormHandler}>\n      {status === \"pending\" && (\n        <div className=\"centered\">\n          <LoadingSpinner />\n        </div>\n      )}\n      <div className={classes.control} onSubmit={submitFormHandler}>\n        <label htmlFor=\"comment\">Your Comment</label>\n        <textarea id=\"comment\" rows=\"5\" ref={commentTextRef}></textarea>\n      </div>\n      <div className={classes.actions}>\n        <button className=\"btn\">Add Comment</button>\n      </div>\n    </form>\n  );\n};\n\nexport default NewCommentForm;\n","C:\\Programiranje\\Learning\\React\\React-router-practice-project\\src\\components\\layout\\Layout.js",[],"C:\\Programiranje\\Learning\\React\\React-router-practice-project\\src\\components\\layout\\MainNavigation.js",[],"C:\\Programiranje\\Learning\\React\\React-router-practice-project\\src\\components\\quotes\\QuoteForm.js",[],"C:\\Programiranje\\Learning\\React\\React-router-practice-project\\src\\components\\UI\\Card.js",[],"C:\\Programiranje\\Learning\\React\\React-router-practice-project\\src\\components\\UI\\LoadingSpinner.js",[],"C:\\Programiranje\\Learning\\React\\React-router-practice-project\\src\\components\\quotes\\HighlightedQuote.js",[],"C:\\Programiranje\\Learning\\React\\React-router-practice-project\\src\\pages\\NotFound.js",[],"C:\\Programiranje\\Learning\\React\\React-router-practice-project\\src\\hooks\\use-http.js",[],"C:\\Programiranje\\Learning\\React\\React-router-practice-project\\src\\lib\\api.js",[],"C:\\Programiranje\\Learning\\React\\React-router-practice-project\\src\\components\\quotes\\NoQuotesFound.js",[],"C:\\Programiranje\\Learning\\React\\React-router-practice-project\\src\\components\\comments\\CommentsList.js",[],"C:\\Programiranje\\Learning\\React\\React-router-practice-project\\src\\components\\comments\\CommentItem.js",[],{"ruleId":"93","replacedBy":"94"},{"ruleId":"95","replacedBy":"96"},{"ruleId":"97","severity":1,"message":"98","line":22,"column":6,"nodeType":"99","endLine":22,"endColumn":15,"suggestions":"100"},{"ruleId":"97","severity":1,"message":"101","line":20,"column":6,"nodeType":"99","endLine":20,"endColumn":21,"suggestions":"102"},"no-native-reassign",["103"],"no-negated-in-lhs",["104"],"react-hooks/exhaustive-deps","React Hook useEffect has a missing dependency: 'sendRequest'. Either include it or remove the dependency array.","ArrayExpression",["105"],"React Hook useEffect has a missing dependency: 'onAddedCommnet'. Either include it or remove the dependency array.",["106"],"no-global-assign","no-unsafe-negation",{"desc":"107","fix":"108"},{"desc":"109","fix":"110"},"Update the dependencies array to be: [quoteId, sendRequest]",{"range":"111","text":"112"},"Update the dependencies array to be: [status, error, onAddedCommnet]",{"range":"113","text":"114"},[670,679],"[quoteId, sendRequest]",[507,522],"[status, error, onAddedCommnet]"]
+[
+  {
+    "C:\\Programiranje\\Learning\\React\\router\\React-router-practice-project\\src\\index.js": "1",
+    "C:\\Programiranje\\Learning\\React\\router\\React-router-practice-project\\src\\App.js": "2",
+    "C:\\Programiranje\\Learning\\React\\router\\React-router-practice-project\\src\\pages\\QuoteDetail.js": "3",
+    "C:\\Programiranje\\Learning\\React\\router\\React-router-practice-project\\src\\pages\\NotFound.js": "4",
+    "C:\\Programiranje\\Learning\\React\\router\\React-router-practice-project\\src\\pages\\AllQuotes.js": "5",
+    "C:\\Programiranje\\Learning\\React\\router\\React-router-practice-project\\src\\pages\\NewQuote.js": "6",
+    "C:\\Programiranje\\Learning\\React\\router\\React-router-practice-project\\src\\components\\layout\\Layout.js": "7",
+    "C:\\Programiranje\\Learning\\React\\router\\React-router-practice-project\\src\\components\\quotes\\HighlightedQuote.js": "8",
+    "C:\\Programiranje\\Learning\\React\\router\\React-router-practice-project\\src\\components\\quotes\\QuoteForm.js": "9",
+    "C:\\Programiranje\\Learning\\React\\router\\React-router-practice-project\\src\\components\\comments\\Comments.js": "10",
+    "C:\\Programiranje\\Learning\\React\\router\\React-router-practice-project\\src\\components\\quotes\\QuoteList.js": "11",
+    "C:\\Programiranje\\Learning\\React\\router\\React-router-practice-project\\src\\lib\\api.js": "12",
+    "C:\\Programiranje\\Learning\\React\\router\\React-router-practice-project\\src\\components\\quotes\\NoQuotesFound.js": "13",
+    "C:\\Programiranje\\Learning\\React\\router\\React-router-practice-project\\src\\hooks\\use-http.js": "14",
+    "C:\\Programiranje\\Learning\\React\\router\\React-router-practice-project\\src\\components\\UI\\LoadingSpinner.js": "15",
+    "C:\\Programiranje\\Learning\\React\\router\\React-router-practice-project\\src\\components\\layout\\MainNavigation.js": "16",
+    "C:\\Programiranje\\Learning\\React\\router\\React-router-practice-project\\src\\components\\UI\\Card.js": "17",
+    "C:\\Programiranje\\Learning\\React\\router\\React-router-practice-project\\src\\components\\comments\\NewCommentForm.js": "18",
+    "C:\\Programiranje\\Learning\\React\\router\\React-router-practice-project\\src\\components\\quotes\\QuoteItem.js": "19",
+    "C:\\Programiranje\\Learning\\React\\router\\React-router-practice-project\\src\\components\\comments\\CommentsList.js": "20",
+    "C:\\Programiranje\\Learning\\React\\router\\React-router-practice-project\\src\\components\\comments\\CommentItem.js": "21"
+  },
+  {
+    "size": 273,
+    "mtime": 1655396508189,
+    "results": "22",
+    "hashOfConfig": "23"
+  },
+  {
+    "size": 933,
+    "mtime": 1655720976723,
+    "results": "24",
+    "hashOfConfig": "23"
+  },
+  {
+    "size": 1659,
+    "mtime": 1655720822855,
+    "results": "25",
+    "hashOfConfig": "23"
+  },
+  {
+    "size": 141,
+    "mtime": 1655461061201,
+    "results": "26",
+    "hashOfConfig": "23"
+  },
+  {
+    "size": 931,
+    "mtime": 1655717675178,
+    "results": "27",
+    "hashOfConfig": "23"
+  },
+  {
+    "size": 725,
+    "mtime": 1655720822854,
+    "results": "28",
+    "hashOfConfig": "23"
+  },
+  {
+    "size": 323,
+    "mtime": 1655456046464,
+    "results": "29",
+    "hashOfConfig": "23"
+  },
+  {
+    "size": 270,
+    "mtime": 1616596573000,
+    "results": "30",
+    "hashOfConfig": "23"
+  },
+  {
+    "size": 1981,
+    "mtime": 1655720822852,
+    "results": "31",
+    "hashOfConfig": "23"
+  },
+  {
+    "size": 1774,
+    "mtime": 1655475659647,
+    "results": "32",
+    "hashOfConfig": "23"
+  },
+  {
+    "size": 1518,
+    "mtime": 1655720822853,
+    "results": "33",
+    "hashOfConfig": "23"
+  },
+  {
+    "size": 2182,
+    "mtime": 1655465726112,
+    "results": "34",
+    "hashOfConfig": "23"
+  },
+  {
+    "size": 331,
+    "mtime": 1655468044341,
+    "results": "35",
+    "hashOfConfig": "23"
+  },
+  {
+    "size": 1212,
+    "mtime": 1616590605000,
+    "results": "36",
+    "hashOfConfig": "23"
+  },
+  {
+    "size": 167,
+    "mtime": 1616596573000,
+    "results": "37",
+    "hashOfConfig": "23"
+  },
+  {
+    "size": 685,
+    "mtime": 1655720822851,
+    "results": "38",
+    "hashOfConfig": "23"
+  },
+  {
+    "size": 156,
+    "mtime": 1655456464883,
+    "results": "39",
+    "hashOfConfig": "23"
+  },
+  {
+    "size": 1399,
+    "mtime": 1655475512181,
+    "results": "40",
+    "hashOfConfig": "23"
+  },
+  {
+    "size": 456,
+    "mtime": 1655457537882,
+    "results": "41",
+    "hashOfConfig": "23"
+  },
+  {
+    "size": 334,
+    "mtime": 1616596573000,
+    "results": "42",
+    "hashOfConfig": "23"
+  },
+  {
+    "size": 200,
+    "mtime": 1616596573000,
+    "results": "43",
+    "hashOfConfig": "23"
+  },
+  {
+    "filePath": "44",
+    "messages": "45",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  "12ejuqx",
+  {
+    "filePath": "46",
+    "messages": "47",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "48",
+    "messages": "49",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "50",
+    "messages": "51",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "52",
+    "messages": "53",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "54",
+    "messages": "55",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "56",
+    "messages": "57",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "58",
+    "messages": "59",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "60",
+    "messages": "61",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "62",
+    "messages": "63",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 1,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": null
+  },
+  {
+    "filePath": "64",
+    "messages": "65",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "66",
+    "messages": "67",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "68",
+    "messages": "69",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "70",
+    "messages": "71",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "72",
+    "messages": "73",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "74",
+    "messages": "75",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "76",
+    "messages": "77",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "78",
+    "messages": "79",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 1,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": null
+  },
+  {
+    "filePath": "80",
+    "messages": "81",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "82",
+    "messages": "83",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "84",
+    "messages": "85",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  "C:\\Programiranje\\Learning\\React\\router\\React-router-practice-project\\src\\index.js",
+  [],
+  "C:\\Programiranje\\Learning\\React\\router\\React-router-practice-project\\src\\App.js",
+  [],
+  "C:\\Programiranje\\Learning\\React\\router\\React-router-practice-project\\src\\pages\\QuoteDetail.js",
+  [],
+  "C:\\Programiranje\\Learning\\React\\router\\React-router-practice-project\\src\\pages\\NotFound.js",
+  [],
+  "C:\\Programiranje\\Learning\\React\\router\\React-router-practice-project\\src\\pages\\AllQuotes.js",
+  [],
+  "C:\\Programiranje\\Learning\\React\\router\\React-router-practice-project\\src\\pages\\NewQuote.js",
+  [],
+  "C:\\Programiranje\\Learning\\React\\router\\React-router-practice-project\\src\\components\\layout\\Layout.js",
+  [],
+  "C:\\Programiranje\\Learning\\React\\router\\React-router-practice-project\\src\\components\\quotes\\HighlightedQuote.js",
+  [],
+  "C:\\Programiranje\\Learning\\React\\router\\React-router-practice-project\\src\\components\\quotes\\QuoteForm.js",
+  [],
+  "C:\\Programiranje\\Learning\\React\\router\\React-router-practice-project\\src\\components\\comments\\Comments.js",
+  [
+    "86"
+  ],
+  "C:\\Programiranje\\Learning\\React\\router\\React-router-practice-project\\src\\components\\quotes\\QuoteList.js",
+  [],
+  "C:\\Programiranje\\Learning\\React\\router\\React-router-practice-project\\src\\lib\\api.js",
+  [],
+  "C:\\Programiranje\\Learning\\React\\router\\React-router-practice-project\\src\\components\\quotes\\NoQuotesFound.js",
+  [],
+  "C:\\Programiranje\\Learning\\React\\router\\React-router-practice-project\\src\\hooks\\use-http.js",
+  [],
+  "C:\\Programiranje\\Learning\\React\\router\\React-router-practice-project\\src\\components\\UI\\LoadingSpinner.js",
+  [],
+  "C:\\Programiranje\\Learning\\React\\router\\React-router-practice-project\\src\\components\\layout\\MainNavigation.js",
+  [],
+  "C:\\Programiranje\\Learning\\React\\router\\React-router-practice-project\\src\\components\\UI\\Card.js",
+  [],
+  "C:\\Programiranje\\Learning\\React\\router\\React-router-practice-project\\src\\components\\comments\\NewCommentForm.js",
+  [
+    "87"
+  ],
+  "C:\\Programiranje\\Learning\\React\\router\\React-router-practice-project\\src\\components\\quotes\\QuoteItem.js",
+  [],
+  "C:\\Programiranje\\Learning\\React\\router\\React-router-practice-project\\src\\components\\comments\\CommentsList.js",
+  [],
+  "C:\\Programiranje\\Learning\\React\\router\\React-router-practice-project\\src\\components\\comments\\CommentItem.js",
+  [],
+  {
+    "ruleId": "88",
+    "severity": 1,
+    "message": "89",
+    "line": 22,
+    "column": 6,
+    "nodeType": "90",
+    "endLine": 22,
+    "endColumn": 15,
+    "suggestions": "91"
+  },
+  {
+    "ruleId": "88",
+    "severity": 1,
+    "message": "92",
+    "line": 20,
+    "column": 6,
+    "nodeType": "90",
+    "endLine": 20,
+    "endColumn": 21,
+    "suggestions": "93"
+  },
+  "react-hooks/exhaustive-deps",
+  "React Hook useEffect has a missing dependency: 'sendRequest'. Either include it or remove the dependency array.",
+  "ArrayExpression",
+  [
+    "94"
+  ],
+  "React Hook useEffect has a missing dependency: 'onAddedCommnet'. Either include it or remove the dependency array.",
+  [
+    "95"
+  ],
+  {
+    "desc": "96",
+    "fix": "97"
+  },
+  {
+    "desc": "98",
+    "fix": "99"
+  },
+  "Update the dependencies array to be: [quoteId, sendRequest]",
+  {
+    "range": "100",
+    "text": "101"
+  },
+  "Update the dependencies array to be: [status, error, onAddedCommnet]",
+  {
+    "range": "102",
+    "text": "103"
+  },
+  [
+    670,
+    679
+  ],
+  "[quoteId, sendRequest]",
+  [
+    507,
+    522
+  ],
+  "[status, error, onAddedCommnet]"
+]
