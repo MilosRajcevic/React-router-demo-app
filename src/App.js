@@ -1,32 +1,25 @@
-import { Route, Switch, Redirect } from "react-router-dom";
+import { Route, Routes, Navigate } from "react-router-dom";
 
 import AllQuotes from "./pages/AllQuotes";
 import QuoteDetail from "./pages/QuoteDetail";
 import NewQuote from "./pages/NewQuote";
 import NotFound from "./pages/NotFound";
 import Layout from "./components/layout/Layout";
+import Comments from "./components/comments/Comments";
 
 function App() {
   return (
     <Layout>
-      <Switch>
-        <Route path="/" exact>
-          <Redirect to="/quotes" />
+      <Routes>
+        <Route path="/" element={<Navigate to="/quotes" replace />} />
+        <Route path="/quotes/*" element={<AllQuotes />} />
+        <Route path="/quotes/:quoteId/*" element={<QuoteDetail />}>
+          <Route path="comments" element={<Comments />} />
         </Route>
-        <Route path="/quotes" exact>
-          <AllQuotes />
-        </Route>
-        <Route path="/quotes/:quoteId">
-          <QuoteDetail />
-        </Route>
-        <Route path="/new-quote">
-          <NewQuote />
-        </Route>
+        <Route path="/new-quote" element={<NewQuote />} />
         {/* this one go last bcs if no one URL match with above URLs, then there is not this page, throw eror 404 */}
-        <Route path="*">
-          <NotFound />
-        </Route>
-      </Switch>
+        <Route path="/*" element={<NotFound />} />
+      </Routes>
     </Layout>
   );
 }

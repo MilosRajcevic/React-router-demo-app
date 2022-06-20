@@ -1,14 +1,12 @@
 import { useEffect } from "react";
-import { useParams, Route, Link, useRouteMatch } from "react-router-dom";
+import { useParams, Outlet, Link } from "react-router-dom";
 
-import Comments from "../components/comments/Comments";
 import HighlightedQuote from "../components/quotes/HighlightedQuote";
 import useHttp from "../hooks/use-http";
 import { getSingleQuote } from "../lib/api";
 import LoadingSpinner from "../components/UI/LoadingSpinner";
 
 function QuoteDetail() {
-  const match = useRouteMatch();
   const params = useParams();
 
   // Radimo destructuring, jer kada stavljamo u useEefect dependecies paramas.quoteId,
@@ -45,17 +43,12 @@ function QuoteDetail() {
   return (
     <section>
       <HighlightedQuote text={loadedQuote.text} author={loadedQuote.author} />
-      <Route path={match.path} exact>
-        <div className="centered">
-          <Link className="btn--flat" to={`${match.url}/comments`}>
-            Load Commnets
-          </Link>
-        </div>
-      </Route>
-
-      <Route path={`${match.path}/comments`}>
-        <Comments />
-      </Route>
+      <div className="centered">
+        <Link className="btn--flat" to="comments">
+          Load Commnets
+        </Link>
+      </div>
+      <Outlet />
     </section>
   );
 }
